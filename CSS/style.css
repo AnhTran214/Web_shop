@@ -1,0 +1,52 @@
+/* Thiết lập hình nên full màn hình */
+.backgroundImg {
+  background-image: url(../IMG/ChatGPT\ Image\ 22_11_10\ 26\ thg\ 1\,\ 2026.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu {
+  background-color: #f0eeee;
+  height: 50px;
+  /* Căn giữa các đối tượng */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.menu li {
+  /* Giúp cho các đối tượng trong danh sách chuyển sang nằm ngang */
+  display: inline-block;
+}
+.menu a {
+  text-decoration: none;
+  padding: 20px;
+}
+.bodyLogin {
+  margin: 20px;
+}
