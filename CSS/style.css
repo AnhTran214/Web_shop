@@ -17,8 +17,6 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  margin: 0;
-  padding: 0;
 }
 
 h1,
@@ -37,7 +35,6 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
 }
 .menu li {
   /* Giúp cho các đối tượng trong danh sách chuyển sang nằm ngang */
@@ -46,7 +43,14 @@ h3 {
 .menu a {
   text-decoration: none;
   padding: 20px;
+  color: #837e7e;
 }
-.bodyLogin {
-  margin: 20px;
+.missPass {
+  text-decoration: none;
+  color: #837e7e;
+}
+.containerLogin {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
